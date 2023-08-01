@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 
 mongoose
-  .connect("mongodb+srv://utkarshAdmin:test123@blogappdb.ptxcz08.mongodb.net/todoDB")
+  .connect("*******")
   .then(() => {
     console.log("Mongo Connection successful.");
   })
